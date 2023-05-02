@@ -33,13 +33,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".DisconnectVPNActivity"
-            android:excludeFromRecents="true"
-            android:noHistory="true"
-            android:exported="true"
-            android:taskAffinity=".DisconnectVPN"
-            android:theme="@style/blinkt.dialog" />
     </application>
 
 </manifest>
